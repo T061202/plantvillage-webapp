@@ -1,0 +1,30 @@
+body {
+    background-color: #f6fdf6;
+}
+
+.upload-card, .result-card {
+    width: 450px;
+    border-radius: 15px;
+}
+
+.upload-box {
+    border: 2px dashed #6cbe6c;
+    padding: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+
+    .upload-box:hover {
+        background-color: #e8f8e8;
+    }
+
+.preview-img, .result-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.result-img {
+    max-height: 300px;
+}
